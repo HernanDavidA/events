@@ -7,8 +7,3 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-
-
-Users = User
-User.create!(username: "admin", permission_level: 1)
-User.create!(username: "user", permission_level: 0)

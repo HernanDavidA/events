@@ -1,6 +1,0 @@
-REDIS_URL: redis://localhost:6379/1
-DATABASE_URL: postgresql://events_pg_user:aFSKSB08DjxKdC8Qpusc2JnZgV10h7Sk@dpg-ctjhj3q3esus73e3eqc0-a.oregon-postgres.render.com/events_pg
-DB_USERNAME: events_pg_user
-DB_PASSWORD: aFSKSB08DjxKdC8Qpusc2JnZgV10h7Sk
-DB_HOST: dpg-ctjhj3q3esus73e3eqc0-a
-DB_PORT: 5432

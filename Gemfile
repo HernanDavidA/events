@@ -35,9 +35,6 @@ gem "redis"
 gem "redis-rails"
 
 
-gem "figaro"
-
-
 gem "pg",  "~> 1.4"
 
 gem "dotenv-rails"
