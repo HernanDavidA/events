@@ -1,0 +1,27 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Events" %>
+
+<h1>Events</h1>
+
+<div id="events">
+  <% @events.each do |event| %>
+    <%= render event %>
+    <p>
+      <%= link_to "Show this event", event %>
+    </p>
+  <% end %>
+</div>
+
+<h2>Most Viewed Events</h2>
+<div id="most_viewed_events">
+  <% @most_viewed_events.each do |event| %>
+    <%= render event %>
+
+    <% if event == nil %>
+      <p>No most viewed events</p>
+    <% end %>
+  <% end %>
+</div>
+
+<%= link_to "New event", new_event_path %>
